@@ -11,8 +11,6 @@ import java.io.IOException;
 
 public class MainActivity extends VPlayAndroidActivity {
 
-  public static final String FRAGMENT_TAG = "my_vp_fragment";
-
   @Override protected void onCreate(@Nullable Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
 
