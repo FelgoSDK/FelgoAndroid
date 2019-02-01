@@ -18,7 +18,6 @@ allprojects {
     repositories {
         google()
         jcenter()
-        maven { url 'https://sdk.v-play.net/maven/' }
         maven { url 'https://github.com/V-Play/VPlayAndroid/raw/master/maven/' }
     }
 }
