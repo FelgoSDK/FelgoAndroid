@@ -25,5 +25,5 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    implementation 'net.vplay:vplay-android:2.18.1'
+    implementation 'net.vplay:vplay-android:2.18.3'
 }
