@@ -9,7 +9,7 @@ You can add it as a regular maven dependency.
 
 	```groovy
 	dependencies {
-		implementation 'net.vplay:vplay-android:2.18.1'
+		implementation 'net.vplay:vplay-android:2.18.3'
 	}
 	```
 
@@ -23,7 +23,9 @@ You can add it as a regular maven dependency.
 
 3. Set the base class of any Activity that includes V-Play to `VPlayAndroidActivity`
 
-4. Add `VPlayAndroidFragment` in layout or in source.
+4. Add your QML code to the application assets. The following example uses the file `assets/qml/Main.qml`.
+
+5. Add `VPlayAndroidFragment` in layout or in source.
 	1. From XML layout:
 	
 		```xml
@@ -32,7 +34,7 @@ You can add it as a regular maven dependency.
 		    class="net.vplay.ui.VPlayAndroidFragment"
 		    android:layout_width="match_parent"
 		    android:layout_height="match_parent"
-		    app:qml_source="@raw/Main"/>
+		    app:qml_source="qml/Main.qml"/>
 		```
 	
 	2. From source:
@@ -40,9 +42,8 @@ You can add it as a regular maven dependency.
 		```java
 		getFragmentManager().beginTransaction()
 		    .replace(R.id.qt_fragment_container, new VPlayAndroidFragment()
-		       .setQmlSource(getApplicationContext(),
-		          URI.create("file://android_asset/qml/Main.qml")
-		       ), null)
+		             .setQmlSource(getApplicationContext(), "qml/Main.qml"), 
+		         null)
 		     .addToBackStack(null)
 		     .commit();
 		```
