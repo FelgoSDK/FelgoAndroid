@@ -2,4 +2,5 @@
     <string name="app_name">NativeIntegrationExample</string>
     <string name="action_push_fragment">Push QML fragment</string>
     <string name="action_start_activity">Show second activity</string>
+    <string name="loading_qt">Loading Qt…</string>
 </resources>
