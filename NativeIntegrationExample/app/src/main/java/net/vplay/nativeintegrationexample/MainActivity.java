@@ -21,7 +21,7 @@ public class MainActivity extends VPlayAndroidActivity {
 /*    try {
       getFragmentManager().beginTransaction()
           .replace(R.id.fragment_container, new VPlayAndroidFragment()
-                  .setQmlSource(getApplicationContext(), "qml/Main.qml"),
+                  .setQmlSource(getApplicationContext(), "qml/Cube3D.qml"),
               null)
           .addToBackStack(null)
           .commit();

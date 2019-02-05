@@ -21,7 +21,7 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        app:qml_source="qml/Main.qml"/>
+        app:qml_source="qml/Cube3D.qml"/>
 
     <!-- layout to load QML fragment in code: -->
 <!--    <FrameLayout
@@ -29,7 +29,5 @@
             android:layout_width="match_parent"
             android:layout_height="0dp"
             android:layout_weight="1" />-->
-
-
 
 </LinearLayout>
