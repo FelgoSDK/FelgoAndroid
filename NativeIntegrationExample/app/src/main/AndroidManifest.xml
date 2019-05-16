@@ -1,4 +1,4 @@
-<manifest package="net.vplay.nativeintegrationexample"
+<manifest package="com.felgo.nativeintegrationexample"
           xmlns:android="http://schemas.android.com/apk/res/android">
 
     <application

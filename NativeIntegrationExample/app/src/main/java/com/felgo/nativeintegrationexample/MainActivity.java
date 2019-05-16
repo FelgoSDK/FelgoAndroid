@@ -1,4 +1,4 @@
-package net.vplay.nativeintegrationexample;
+package com.felgo.nativeintegrationexample;
 
 import android.os.Bundle;
 import android.support.annotation.Nullable;
