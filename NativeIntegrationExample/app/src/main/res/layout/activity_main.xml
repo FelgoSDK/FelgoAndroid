@@ -31,7 +31,7 @@
         <!-- add QML fragment via XML: -->
         <fragment
             android:id="@+id/fragment_container"
-            class="net.vplay.ui.VPlayAndroidFragment"
+            class="com.felgo.ui.FelgoAndroidFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             app:qml_source="qml/Cube3D.qml"/>

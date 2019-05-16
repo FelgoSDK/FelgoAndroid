@@ -4,12 +4,12 @@ import android.os.Bundle;
 import android.support.annotation.Nullable;
 import android.util.Log;
 
-import net.vplay.ui.VPlayAndroidActivity;
-import net.vplay.ui.VPlayAndroidFragment;
+import com.felgo.ui.FelgoAndroidActivity;
+import com.felgo.ui.FelgoAndroidFragment;
 
 import java.io.IOException;
 
-public class MainActivity extends VPlayAndroidActivity {
+public class MainActivity extends FelgoAndroidActivity {
 
   @Override protected void onCreate(@Nullable Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
@@ -20,7 +20,7 @@ public class MainActivity extends VPlayAndroidActivity {
     // show QML fragment via code: (uncomment FrameLayout in activity_main.xml)
 /*    try {
       getFragmentManager().beginTransaction()
-          .replace(R.id.fragment_container, new VPlayAndroidFragment()
+          .replace(R.id.fragment_container, new FelgoAndroidFragment()
                   .setQmlSource(getApplicationContext(), "qml/Cube3D.qml"),
               null)
           .addToBackStack(null)

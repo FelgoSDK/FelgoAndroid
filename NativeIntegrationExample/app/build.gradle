@@ -25,5 +25,8 @@ android {
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
 
-    implementation 'com.felgo:felgo-android:3.1.0'
+    implementation 'com.felgo:felgo-android:3.2.0'
+    
+    implementation 'org.jetbrains:annotations:15.0'
+    implementation 'com.android.support:support-annotations:28.0.0'
 }
