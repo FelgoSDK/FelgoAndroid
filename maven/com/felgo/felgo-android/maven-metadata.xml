@@ -3,11 +3,13 @@
   <groupId>com.felgo</groupId>
   <artifactId>felgo-android</artifactId>
   <versioning>
-    <release>3.2.0</release>
+    <latest>3.4.0-alpha</latest>
+    <release>3.4.0-alpha</release>
     <versions>
       <version>3.1.0</version>
       <version>3.2.0</version>
+      <version>3.4.0-alpha</version>
     </versions>
-    <lastUpdated>20190516003130</lastUpdated>
+    <lastUpdated>20200409143245</lastUpdated>
   </versioning>
 </metadata>
