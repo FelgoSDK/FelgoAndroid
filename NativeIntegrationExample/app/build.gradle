@@ -9,10 +9,6 @@ android {
         versionCode 1
         versionName "1.0"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-        ndk {
-            // No support arm 64 bit for now
-            abiFilters 'armeabi-v7a', 'x86_64'
-        }
     }
     buildTypes {
         release {
